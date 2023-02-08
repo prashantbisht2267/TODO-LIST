@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* .container{
+ 
+    display:flex;
+    justify-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+margin: 200px 10px;
+}
+*/
+*{
+    margin: 0px 0px;
+}
+.container{
+   background-image: url("https://media.istockphoto.com/id/1271863211/photo/note-pad-and-pencil.jpg?b=1&s=170667a&w=0&k=20&c=AGKg04_O_SidW-fZzRPW2IyRP0FC3oZbE3mwIQjayac=") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0px 0px;
+   padding: 0px 0px;
+   height: 100vh;
+} 
+ #t1{
+    height: 50px;
+    width: 300px;
+    padding: 10px 10px;
+    font-size: 30px;
+    margin:20px 500px;
+}
+#t2{
+    height: 50px;
+    width: 300px;
+    padding: 0px 10px;
+    font-size: 30px;
+    margin:0px 500px;
+}
+#t3{
+    height: 50px;
+    width: 300px;
+    padding: 10px 10px;
+    font-size: 30px;
+    margin:10px 500px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+#t4{
+    height: 50px;
+    width: 300px;
+    padding: 10px 10px;
+    font-size: 30px;
+    margin:10px 500px;
+}  
+#t5{
+  
+    height: 50px;
+    width: 300px;
+    padding: 10px 10px;
+    font-size: 30px;
+    margin:10px 500px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+}  
+#t6{
+  
+    height: 50px;
+    width: 300px;
+    padding: 10px 10px;
+    font-size: 30px;
+    margin:10px 500px;
+
+}  
+#t7{
+  
+    height: 50px;
+    width: 300px;
+    padding: 10px 10px;
+    font-size: 30px;
+    margin:10px 500px;
+
+}  
